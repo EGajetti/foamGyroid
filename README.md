@@ -7,7 +7,7 @@ In the folder ```constant/triSurface``` a geometry must be inserted, in .stl for
 Within ```system/controlDict``` and ```system/controlDictScalar``` two custom function objects are used, that you might find in the submodules ```myFO```. If you do not want to compile them, you can just comment them within the controlDict files.
 
 ## Usage
-in ```0.orig/T``` and ```0.Tw/T``` you can find two different implementations of the thermal periodic boundary conditions as codedFixedValue, depending on wheter the wall heat flux or the wall temperature are prescribed, sa described in [1].
+In ```0.orig/T``` and ```0.Tw/T``` you can find two different implementations of the thermal periodic boundary conditions as codedFixedValue, depending on wheter the wall heat flux or the wall temperature are prescribed, sa described in [1].
 
 Run the ./Allrun file to execute the case.
 
