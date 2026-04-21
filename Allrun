@@ -14,6 +14,5 @@ touch TPMS.foam
 ./Allrun-simple 
 
 ./Allrun-scalar
-python3 getResult.py 
 
 
